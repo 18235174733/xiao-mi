@@ -1,0 +1,2846 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-23 19:35:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-03-29 14:14:52
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* 上边框开始 */
+.a{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+}
+.a .a1{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.a .a1 ul li{
+	font-size: 12px;
+	color: #B0B0B0;
+	float: left;
+	line-height: 40px;
+	margin-right: 16px;
+	cursor: pointer;
+}
+.a .a1 ul li:hover{
+	color: #fff;
+}
+.a1 .a2{
+	width: 120px;
+	height: 40px;
+	background: #424242;
+	float: right;
+	line-height: 40px;
+	font-size: 12px;
+}
+.a1 .a2 span{
+	color: #B0B0B0;
+	margin-left: 40px;
+}
+.a1 .a3{
+	width: 68px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	float: right;
+	color: #B0B0B0;
+	margin: 0 4px;
+}
+.a1 .a4{
+	width: 34px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	float: right;
+	color: #B0B0B0;
+	margin: 0 4px;
+}
+.a1 .a5{
+	width: 34px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	float: right;
+	color: #B0B0B0;
+	margin: 0 4px;
+}
+
+.a1 .a3:hover{
+	color: #fff;
+}
+.a1 .a4:hover{
+	color: #fff;
+}
+.a1 .a5:hover{
+	color: #fff;
+}
+/* 上边框结束 */
+/* 导航开始 */
+.nav{
+	width: 1226px;
+	height: 100px;
+	margin: 0 auto;
+}
+/* logo开始*/
+.nav .logok{
+	margin-top: 21px;
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0);
+}
+.nav .dysj{
+	width: 164px;
+	height: 66px;
+	float: left;
+	margin-left: 35px;
+	margin-top: 15px;
+}
+/* logo结束 */
+/* 导航条开始 */
+.nav .daohang{
+	width:670px;
+	height: 50px;
+	float: left;
+	margin-top: 24px;
+}
+.nav .daohang ul{
+	width: 670px;
+	height: 50px;
+	margin-top: 14px;
+}
+.nav .daohang ul li{
+	float: left;
+}
+.nav .daohang ul li{
+	width: auto;
+	height: 100px
+}
+.nav .daohang .xl .lb a{
+	display: block;
+	height: 100px;
+	font-size: 16px;
+}
+.nav .daohang .xl .lb a:hover{
+	color: #FF8A3B;
+}
+/* 导航条结束 */
+/* 下拉列表1开始 */
+.nav .daohang .xl .lb .xllb{
+	width: 100%;
+	height: 230px;
+	background: #fff;
+	position: absolute;
+	margin-top: 40px;
+	right: 0px;
+	border: 1px solid #ccc;
+	z-index: 1;
+}
+.nav .daohang .xl .lb .xllb{
+	display: none;
+}
+.nav .daohang .xl .lb:hover .xllb{
+	display: block;
+}
+
+.nav .daohang .xl .lb .xllb .xp{
+	width: 1200px;
+	height: 22px;
+	margin-left: 130px;
+}
+.nav .daohang .xl .lb .xllb .xp .xin{
+	width: 1000px;
+	height: 22px;
+	margin-right: 117px;
+}
+.nav .daohang .xl .lb .xllb .xp .xin .x{
+	width: 68px;
+	height: 20px;
+	border: 1px solid #FF8A3B;
+	color: #FF8A3B;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	margin-right: 125px;
+}
+.nav .daohang .xl .lb .xllb .xp .xin .x22{
+	border: 0px;
+}
+.nav .daohang .xl .lb .xllb .xp .xin .x24{
+	border: 0px;
+}
+.nav .daohang .xl .lb .xllb .xp .xin .x30{
+	border: 0px;
+}
+.nav .daohang .xl .lb .xllb .xp .xin .x5{
+	border: 0px;
+}
+.nav .daohang .xl .lb .xllb .tup{
+	margin-top: 20px;
+}
+.nav .daohang .xl .lb .xllb .k{
+	width: 192px;
+	height: 100px;
+	float: left;
+	border-right: 1px solid #ccc;
+	margin: 0 auto;
+}
+.nav .daohang .xl .lb .xllb .k1{
+	margin-left: 71px;
+
+}
+.nav .daohang .xl .lb .xllb .k6{
+	border: 0px;
+}
+.nav .daohang .xl .lb .xllb .tup .k .tp{
+	margin-left: 15px;
+}
+.nav .daohang .xl .lb .xllb .tup .k .wz{
+	text-align: center;
+	font-size: 12px;
+	color: #5c5c5c;
+	margin-top: 20px;
+}
+.nav .daohang .xl .lb .xllb .tup .k .jg{
+	color: #FF6D0A;
+	margin-top: 5px;
+}
+.nav .sousuok{
+	width: 300px;
+	height: 55px;
+	float: right;
+	margin-top: 21px;
+}
+.nav .sousuok .fuhao{
+	width: 53px;
+	height: 53px;
+	float: right;
+	border: 1px solid #b0b0b0;
+	border-left: 0px;
+	line-height: 53px;
+	text-align: center;
+	font-size: 18px;
+}
+.nav .sousuok .fuhao:hover{
+	background: #FF6700;
+}
+.nav .sousuok .ssk{
+	width: 243px;
+	height: 53px;
+	float: right;
+}
+.nav .sousuok .ssk form input {
+	width: 243px;
+	height: 53px;
+	float: right;
+	border: 1px solid #b0b0b0;
+}
+
+/* 导航结束 */
+/* banner开始 */
+.c{
+	width: 1200px;
+	height: 460px;
+	margin: 0 auto;
+	background: red;
+}
+.c .c1{
+	width: 234px;
+	height: 460px;
+	background: #605F60;
+	float: left;
+}
+.c .c13{
+	width: 204px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-left: 30px;
+}
+.c .c3{
+	margin-top: 20px;
+}
+.c  .c1 .c13 img{
+	float: right;
+	margin-right: 16px;
+	margin-top: 13px;
+}
+.c  .c1 .c13:hover{
+	background: #FF6700;
+}
+.c .c2{
+	width: 966px;
+	height: 460px;
+	float: left;
+	/* position: absolute; */
+}
+.c .c2 .son{
+	width: 41px;
+	height: 69px;
+	position: relative;
+	top: -250px;
+	background-image: url(../img/jian.png);
+	background-position: 82px 0;
+}
+.c .c2 .son1{
+	width: 41px;
+	height: 69px;
+	position: relative;
+	top: -320px;
+	left: 924px;
+	background-image: url(../img/jian.png);
+	background-position: 44px 0;
+}
+.c .c2 .son:hover{
+	width: 41px;
+	height: 69px;
+	position: relative;
+	top: -250px;
+	background-image: url(../img/jian.png);
+	background-position: 0px 0;
+}
+.c .c2 .son1:hover{
+	width: 41px;
+	height: 69px;
+	position: relative;
+	top: -320px;
+	left: 924px;
+	background-image: url(../img/jian.png);
+	background-position: 125px 0;
+}
+.c .c2 .son3{
+	width: 110px;
+	height: 18px;
+	position: relative;
+	top: -180px;
+	left: 830px;
+}
+.c .c2 .son3 .wa{
+	width: 10px;
+	height: 10px;
+	background: #877A6B;
+	float: left;
+	margin-left: 10px;
+	border-radius: 100%;
+}
+.c .c2 .son3 .wa:hover{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	border: 2px solid #877A6B;
+	background: none;
+}
+.c15{
+	width: 1200px;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 14px;
+}
+
+.c15 .c16{
+	width: 234px;
+	height: 170px;
+	background: #5F5750;
+	float: left;
+	position: absolute;
+}
+
+.c15 .c17{
+	width: 310px;
+	height: 170px;
+	float: right;
+	margin-left: 12px;
+}
+.c15 .c18{
+	width: 310px;
+	height: 170px;
+	float: right;
+	margin-left: 12px;
+}
+.c15 .c19{
+	width: 310px;
+	height: 170px;
+	float: right;
+	margin-left: 12px;
+}
+.c15 .c16 .sa{
+	width: 75px;
+	height: 83px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 1px;
+}
+.c15 .c16 .sa .sa1{
+	width: 70px;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.c15 .c16 .sa .sa1 i{
+	text-align: center;
+	font-size: 30px;
+	margin-left: 20px;
+	color: #CDCAC8;
+}
+.c15 .c16 .sa .sa1 i:hover{
+	color: #fff;
+}
+.c15 .c16 .sa .sa2{
+	width: 70px;
+	height: 14px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	color: #CDCAC8;
+	margin-top: 15px;
+}
+.c15 .c16 .sa .sa2:hover{
+	color: #fff;
+}
+.c15 .c16 .da{
+	width: 1px;
+	height: 70px;
+	background: #665E57;
+	float: left;	
+	position: relative;
+	top: 10px;
+	left: 77px;
+}
+.c15 .c16 .da1{
+	width: 1px;
+	height: 70px;
+	background: #665E57;
+	float: left;	
+	position: relative;
+	top: 95px;
+	left: 77px;
+}
+.c15 .c16 .da2{
+	width: 1px;
+	height: 70px;
+	background: #665E57;
+	float: left;	
+	position: relative;
+	top: 10px;
+	left: 154px;
+}
+.c15 .c16 .da3{
+	width: 1px;
+	height: 70px;
+	background: #665E57;
+	float: left;	
+	position: relative;
+	top: 95px;
+	left: 154px;
+}
+.c15 .c16 .da4{
+	width: 64px;
+	height: 1px;
+	background: #665E57;
+	position: relative;
+	top: 86px;
+	left: 8px;
+}
+.c15 .c16 .da5{
+	width: 64px;
+	height: 1px;
+	background: #665E57;
+	position: relative;
+	top: 86px;
+	left: 86px;
+}
+.c15 .c16 .da6{
+	width: 64px;
+	height: 1px;
+	background: #665E57;
+	position: relative;
+	top: 86px;
+	left: 165px;
+}
+/* banner结束 */
+/* 小米明星单品开始 */
+.d{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	margin-top: 20px;
+	line-height: 58px;
+	font-size: 24px;
+}
+.d1{
+	width: 1200px;
+	height: 340px;
+	margin: 0 auto;
+}
+.d1 .d2{
+	width: 234px;
+	height: 340px;
+	display: block;
+	float: left;
+	margin-left: 7px;
+	background: #FAFAFA;
+}
+.d1 .d2 img{
+	margin-top: 50px;
+	margin-left: 37px;
+}
+.d1 .d3{
+	margin: 1px;
+	border-top: 1px solid #FFAC13;
+}
+.d1 .d5{
+	border-top: 1px solid #83C44E;
+}
+.d1 .d6{
+	border-top: 1px solid #2196F3;
+}
+.d1 .d7{
+	border-top: 1px solid #E53935;
+}
+.d1 .d8{
+	border-top: 1px solid #00C0A5;
+}
+
+.d1 .d2 .d4{
+	width: 200px;
+	height: 18px;
+	margin: 0 auto;
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 18px;
+}
+.d1 .d2 .d9{
+	width: 100%;
+	height: 18px;
+	text-align: center;
+	font-size: 12px;
+	color: #C0B0C0;
+	margin-top: 5px;
+}
+.d1 .d2 .d10{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	font-size: 16px;
+	color: #FF6709;
+	margin-top: 20px;
+}
+/* 小米明星单品结束 */
+/* 智能硬件开始 */
+.e{
+	width: 100%;
+	height: 4600px;
+	background: #F5F5F5;
+	margin-top: 40px;
+	display: block;
+}
+.e .e1{
+	width: 1200px;
+	height: 672px;
+	margin: 0 auto;
+	border-top: 60px solid #F5F5F5;
+}
+.e .e1 .e2{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	line-height: 58px;
+	font-size: 20px;
+}
+.e .e1 .e2 .e4{
+	width: auto;
+	height: 58px;
+	font-size: 26px;
+	line-height: 58px;
+	float: left;
+}
+.e .e1 .e2 .e5{
+	width: 200px;
+	height: 58px;
+	float: right;
+}
+.e .e1 .e2 .e5 span{
+	line-height: 58px;
+	float: right;
+	font-size: 16px;
+}
+.e .e1 .e2 .e5 input{
+	width: 20px;
+	height: 20px;
+	background: #B6ABA4;
+	float: right;
+	margin-top: 20px;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+.e .e1 .e2 .e5:hover{
+	color: #FF6709;
+}
+.e .e1 .e2 .e5 input:hover{
+	background: #FF6709;
+}
+.e .e1 .e6{
+	width: 234px;
+	height: 614px;
+	float: left;
+	margin-left: 7px;
+}
+.e .e1 .e7{
+	margin-left: 0;
+	margin-right: 2px;
+}
+.e1 .e7{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.e1 .e7:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.e1 .e7:hover a img{
+	bottom: 0;
+}
+.e .e1 .e6 .e8{
+	width: 234px;
+	height: 300px;
+	background: #FEFEFE;
+}
+.e1 .e8{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.e1 .e8:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.e1 .e8:hover a img{
+	bottom: 0;
+}
+.e .e1 .e6 .e9{
+	width: 234px;
+	height: 300px;
+	background: #FEFEFE;
+	margin-top: 14px;
+}
+.e1 .e9{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.e1 .e9:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.e1 .e9:hover a img{
+	bottom: 0;
+} 
+.e8 a img{
+	margin-top: 30px;
+	margin-left: 37px;
+}
+.e9 a img{
+	margin-top: 30px;
+	margin-left: 37px;
+}
+.e6 .e8 a .as1{
+	width: 100%; 
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: #333333;
+}
+.e6 .e9 a .as4{
+	width: 100%;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: #333333;
+}
+.e6 .e8 .as2{
+	width: 100%; 
+	height: 16px;
+	margin-top: 5px;
+	line-height: 16px;
+	text-align: center;
+	color: #B0B0B0;
+	font-size: 12px;
+}
+.e6 .e9 .as5{
+	width: 100%;
+	height: 16px;
+	margin-top: 5px;
+	line-height: 16px;
+	text-align: center;
+	color: #B0B0B0;
+	font-size: 12px;
+}
+.e6 .e8 .as3{
+	width: 100%; 
+	height: 16px;
+	margin-top: 10px;
+	line-height: 16px;
+	text-align: center;
+	color: #FF6700;
+	font-size: 16px;
+}
+.e6 .e9 .as6{
+	width: 100%; 
+	height: 16px;
+	margin-top: 10px;
+	line-height: 16px;
+	text-align: center;
+	color: #FF6700;
+	font-size: 16px;
+}
+/* 智能硬件结束 */
+/* 搭配开始 */
+.f{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.f .f5{
+	line-height: 58px;
+	font-size: 26px;
+	float: left;
+}
+.f .f1 .c1{
+	width: 80px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.f .f1 .c2{
+	width: 32px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.f .f1 .c3{
+	width: 68px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.f .f1 .c4{
+	width: 32px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.f .f1 .c1 .ul1{
+	width: 80px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.f .f1 .c2 .ul2{
+	width: 32px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.f .f1 .c3 .ul3{
+	width: 68px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.f .f1 .c4 .ul4{
+	width: 32px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.f .f1 .c1:hover .ul1{
+	display: block;
+}
+.f .f1 .c2:hover .ul2{
+	display: block;
+}
+.f .f1 .c3:hover .ul3{
+	display: block;
+}
+.f .f1 .c4:hover .ul4{
+	display: block;
+}
+.f .f1 .c1:hover{
+	color: #FF6700;
+}
+.f .f1 .c2:hover{
+	color: #FF6700;
+}
+.f .f1 .c3:hover{
+	color: #FF6700;
+}
+.f .f1 .c4:hover{
+	color: #FF6700;
+}
+.f6{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+.f6 .f8{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 1px;
+}
+.f6 .f8{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.f6 .f8:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.f6 .f8:hover a img{
+	bottom: 0;
+} 
+.f6 .f7{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.f6 .f7:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.f6 .f7:hover a img{
+	bottom: 0;
+} 
+.f6 .f7:hover .son{
+	bottom: 0;
+}
+.f6 .f7 .son{
+	width: 100%;
+	height: 80px;
+	background: #ff6700;
+	position: absolute;
+	bottom: -80px;
+	transition: all .6s ease;
+}
+.f6 .f7 .son .sd{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.f6 .f7 .son .sd1{
+	width: 234px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	cursor: pointer;
+}
+.ad .ad1{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ad .ad1:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ad .ad1:hover a img{
+	bottom: 0;
+} 
+.ad .ad2{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ad .ad2:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ad .ad2:hover a img{
+	bottom: 0;
+} 
+.ad .ad5 .az{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ad .ad5 .az:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ad .ad5 .az:hover a img{
+	bottom: 0;
+} 
+.ad .ad5 .az1{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ad .ad5 .az1:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ad .ad5 .az1:hover a img{
+	bottom: 0;
+}
+.ad .ad2:hover .son{
+	bottom: 0;
+}
+.ad .ad2 .son{
+	width: 100%;
+	height: 80px;
+	background: #ff6700;
+	position: absolute;
+	bottom: -80px;
+	transition: all .6s ease;
+}
+.ad .ad2 .son .sd{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.ad .ad2 .son .sd1{
+	width: 234px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	cursor: pointer;
+}
+.f6 .f7{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 7px;
+	background: #fff;
+}
+.f6 .f7 a img{
+	margin-top: 30px;
+	margin-left: 37px;
+}
+.f7 .f10{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #333333;
+}
+.f7 .as1{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	color: #FF6700;
+}
+.f7 .as{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #B0B0B0;
+}
+.ad{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+.ad .ad1{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 1px;
+}
+.ad .ad2{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	margin-left: 7px;
+}
+.ad .ad5{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 7px;
+}
+.ad .ad2 img{
+	margin-left: 37px;
+	margin-top: 30px;
+}
+.ad .ad2 .ad3{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+}
+.ad .ad2 .as1{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 16px;
+	color: #FF6700;
+	margin-top: 5px;
+}
+.ad .ad2 .as{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #B0B0B0;
+	margin-top: 10px;
+}
+.ad .ad5 .az{
+	width: 234px;
+	height: 143px;
+	background: #fff;
+}
+.ad .ad5 .az1{
+	width: 234px;
+	height: 143px;
+	background: #fff;
+	margin-top: 14px;
+}
+.ad .ad5 .az .az2{
+	width: 94px;
+	height: 21px;
+	margin-left: 30px;
+	padding-top: 30px;
+	font-size: 14px;
+}
+.ad .ad5 .az .az3{
+	width: 40px;
+	height: 21px;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #FF6700;
+}
+.ad .ad5 .az img{
+	float: right;
+	display: block;
+	margin-top: -60px;
+	margin-right: 10px;
+}
+.ad .ad5 .az1 .az4{
+	width: 94px;
+	height: 20px;
+	font-size: 20px;
+	margin-left: 30px;
+	padding-top: 50px;
+	color: #000;
+}
+.ad .ad5 .az1 .az5{
+	width: 94px;
+	height: 20px;
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top: 15px;
+	color: #757575;
+}
+.ad .ad5 .az1 img{
+	float: right;
+	display: block;
+	margin-top: -60px;
+	margin-right: 20px;
+}
+/* 搭配结束 */
+/* 配件开始 */
+.g{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.g .f5{
+	line-height: 58px;
+	font-size: 26px;
+	float: left;
+}
+.g .f1 .c1{
+	width: 64px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.g .f1 .c2{
+	width: 32px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.g .f1 .c3{
+	width: 48px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.g .f1 .c4{
+	width: 32px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.g .f1 .c1 .ul1{
+	width: 64px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.g .f1 .c2 .ul2{
+	width: 32px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.g .f1 .c3 .ul3{
+	width: 48px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.g .f1 .c4 .ul4{
+	width: 32px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.g .f1 .c1:hover .ul1{
+	display: block;
+}
+.g .f1 .c2:hover .ul2{
+	display: block;
+}
+.g .f1 .c3:hover .ul3{
+	display: block;
+}
+.g .f1 .c4:hover .ul4{
+	display: block;
+}
+.g .f1 .c1:hover{
+	color: #FF6700;
+}
+.g .f1 .c2:hover{
+	color: #FF6700;
+}
+.g .f1 .c3:hover{
+	color: #FF6700;
+}
+.g .f1 .c4:hover{
+	color: #FF6700;
+}
+.g6{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+.g6 .f8{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 1px;
+}
+.g6 .f8{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.g6 .f8:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.g6 .f8:hover a img{
+	bottom: 0;
+} 
+.g6 .f7{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.g6 .f7:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.g6 .f7:hover a img{
+	bottom: 0;
+}
+.g6 .f7:hover .son{
+	bottom: 0;
+} 
+.g6 .f7 .son{
+	width: 100%;
+	height: 80px;
+	background: #ff6700;
+	position: absolute;
+	bottom: -80px;
+	transition: all .6s ease;
+}
+.g6 .f7 .son .sd{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.g6 .f7 .son .sd1{
+	width: 234px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	cursor: pointer;
+}
+.g6 .f7{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 7px;
+	background: #fff;
+}
+.g6 .f7 a img{
+	margin-top: 30px;
+	margin-left: 37px;
+}
+.g6 .f7 .f10{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #333333;
+}
+.g6 .f7 .as1{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	color: #FF6700;
+}
+.g6 .f7 .as{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #B0B0B0;
+}
+.ah{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+.ah .ad1{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 1px;
+}
+.ah .ad1{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ah .ad1:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ah .ad1:hover a img{
+	bottom: 0;
+} 
+.ah .ad2{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	margin-left: 7px;
+}
+.ah .ad2{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ah .ad2:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ah .ad2:hover a img{
+	bottom: 0;
+} 
+.ah .ad2:hover .son{
+	bottom: 0;
+}
+.ah .ad2 .son{
+	width: 100%;
+	height: 80px;
+	background: #ff6700;
+	position: absolute;
+	bottom: -80px;
+	transition: all .6s ease;
+}
+.ah .ad2 .son .sd{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.ah .ad2 .son .sd1{
+	width: 234px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	cursor: pointer;
+}
+.ah .ad5{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 7px;
+}
+
+.ah .ad5 .az{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ah .ad5 .az:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ah .ad5 .az:hover a img{
+	bottom: 0;
+} 
+.ah .ad5 .az1{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ah .ad5 .az1:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ah .ad5 .az1:hover a img{
+	bottom: 0;
+} 
+
+.ah .ad2 img{
+	margin-left: 37px;
+	margin-top: 30px;
+}
+.ah .ad2 .ad3{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+}
+.ah .ad2 .as1{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 16px;
+	color: #FF6700;
+	margin-top: 5px;
+}
+.ah .ad2 .as{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #B0B0B0;
+	margin-top: 10px;
+}
+.ah .ad5 .az{
+	width: 234px;
+	height: 143px;
+	background: #fff;
+}
+.ah .ad5 .az1{
+	width: 234px;
+	height: 143px;
+	background: #fff;
+	margin-top: 14px;
+}
+.ah .ad5 .az .az2{
+	width: 94px;
+	height: 21px;
+	margin-left: 30px;
+	padding-top: 30px;
+	font-size: 14px;
+}
+.ah .ad5 .az .az3{
+	width: 40px;
+	height: 21px;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #FF6700;
+}
+.ah .ad5 .az img{
+	float: right;
+	display: block;
+	margin-top: -60px;
+	margin-right: 10px;
+}
+.ah .ad5 .az1 .az4{
+	width: 94px;
+	height: 20px;
+	font-size: 20px;
+	margin-left: 30px;
+	padding-top: 50px;
+	color: #000;
+}
+.ah .ad5 .az1 .az5{
+	width: 94px;
+	height: 20px;
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top: 15px;
+	color: #757575;
+}
+.ah .ad5 .az1 img{
+	float: right;
+	display: block;
+	margin-top: -60px;
+	margin-right: 20px;
+}
+/* 配件结束 */
+/* 周边开始 */
+.h{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.h .f5{
+	line-height: 58px;
+	font-size: 26px;
+	float: left;
+}
+.h .f1 .c1{
+	width: 32px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.h .f1 .c2{
+	width: 64px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.h .f1 .c3{
+	width: 32px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.h .f1 .c4{
+	width: 32px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.h .f1 .c5{
+	width: 32px;
+	height: 40px;
+	line-height: 58px;
+	float: right;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.h .f1 .c1 .ul1{
+	width: 32px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.h .f1 .c2 .ul2{
+	width: 64px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.h .f1 .c3 .ul3{
+	width: 32px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.h .f1 .c4 .ul4{
+	width: 32px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.h .f1 .c5 .ul5{
+	width: 32px;
+	height: auto;
+	border-top: 2px solid #FF6700;
+	display: none;
+}
+.h .f1 .c1:hover .ul1{
+	display: block;
+}
+.h .f1 .c2:hover .ul2{
+	display: block;
+}
+.h .f1 .c3:hover .ul3{
+	display: block;
+}
+.h .f1 .c4:hover .ul4{
+	display: block;
+}
+.h .f1 .c5:hover .ul5{
+	display: block;
+}
+.h .f1 .c1:hover{
+	color: #FF6700;
+}
+.h .f1 .c2:hover{
+	color: #FF6700;
+}
+.h .f1 .c3:hover{
+	color: #FF6700;
+}
+.h .f1 .c4:hover{
+	color: #FF6700;
+}
+.h .f1 .c5:hover{
+	color: #FF6700;
+}
+.h6{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+.h6 .f8{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 1px;
+}
+.h6 .f8{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.h6 .f8:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.h6 .f8:hover a img{
+	bottom: 0;
+} 
+.h6 .f7{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.h6 .f7:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.h6 .f7:hover a img{
+	bottom: 0;
+} 
+.h6 .f7:hover .son{
+	bottom: 0;
+}
+.h6 .f7 .son{
+	width: 100%;
+	height: 80px;
+	background: #ff6700;
+	position: absolute;
+	bottom: -80px;
+	transition: all .6s ease; 
+}
+.h6 .f7 .son .sd{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.h6 .f7 .son .sd1{
+	width: 234px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	cursor: pointer;
+}
+.h6 .f7{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 7px;
+	background: #fff;
+}
+.h6 .f7 a img{
+	margin-top: 30px;
+	margin-left: 37px;
+}
+.h6 .f7 .f10{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #333333;
+}
+.h6 .f7 .as1{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	color: #FF6700;
+}
+.h6 .f7 .as{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #B0B0B0;
+}
+.ax{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+.ax .ad1{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 1px;
+}
+.ax .ad1{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ax .ad1:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ax .ad1:hover a img{
+	bottom: 0;
+} 
+.ax .ad2{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ax .ad2:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ax .ad2:hover a img{
+	bottom: 0;
+} 
+.ax .ad2:hover .son{
+	bottom: 0;
+}
+.ax .ad2 .son{
+	width: 100%;
+	height: 80px;
+	background: #ff6700;
+	position: absolute;
+	bottom: -80px;
+	transition: all .6s ease;
+}
+.ax .ad2 .son .sd{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.ax .ad2 .son .sd1{
+	width: 234px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	cursor: pointer;
+}
+.ax .ad2{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	margin-left: 7px;
+}
+.ax .ad5{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left: 7px;
+}
+.ax .ad5 .az{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ax .ad5 .az:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ax .ad5 .az:hover a img{
+	bottom: 0;
+} 
+.ax .ad5 .az1{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.ax .ad5 .az1:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.ax .ad5 .az1:hover a img{
+	bottom: 0;
+}
+.ax .ad2 img{
+	margin-left: 37px;
+	margin-top: 30px;
+}
+.ax .ad2 .ad3{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+}
+.ax .ad2 .as1{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 16px;
+	color: #FF6700;
+	margin-top: 5px;
+}
+.ax .ad2 .as{
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #B0B0B0;
+	margin-top: 10px;
+}
+.ax .ad5 .az{
+	width: 234px;
+	height: 143px;
+	background: #fff;
+}
+.ax .ad5 .az1{
+	width: 234px;
+	height: 143px;
+	background: #fff;
+	margin-top: 14px;
+}
+.ax .ad5 .az .az2{
+	width: 94px;
+	height: 21px;
+	margin-left: 30px;
+	padding-top: 30px;
+	font-size: 14px;
+}
+.ax .ad5 .az .az3{
+	width: 40px;
+	height: 21px;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #FF6700;
+}
+.ax .ad5 .az img{
+	float: right;
+	display: block;
+	margin-top: -60px;
+	margin-right: 10px;
+}
+.ax .ad5 .az1 .az4{
+	width: 94px;
+	height: 20px;
+	font-size: 20px;
+	margin-left: 30px;
+	padding-top: 50px;
+	color: #000;
+}
+.ax .ad5 .az1 .az5{
+	width: 94px;
+	height: 20px;
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top: 15px;
+	color: #757575;
+}
+.ax .ad5 .az1 img{
+	float: right;
+	display: block;
+	margin-top: -60px;
+	margin-right: 20px;
+}
+/* 周边结束 */
+/* 为你推荐开始 */
+.q{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	margin-top: 20px;
+	line-height: 58px;
+	font-size: 24px;
+}
+.q1{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+.q1 .q2{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	float: left;
+	margin-left: 7px;
+}
+.q1 .q3{
+	margin-left: 1px;
+}
+.q1 .q2 img{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.q1 .q2 .as1{
+	width: 234px;
+	height: 16px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #333;
+}
+.q1 .q2 .as2{
+	width: 234px;
+	height: 16px;
+	text-align: center;
+	margin-top: 10px;
+	color: #FF6700;
+	font-size: 14px;
+	line-height: 16px;
+}
+.q1 .q2 .as3{
+	width: 234px;
+	height: 16px;
+	text-align: center;
+	margin-top: 15px;
+	color: #B0B0B0;
+	font-size: 12px;
+	line-height: 16px;
+}
+.q1 .q2{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.q1 .q2:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.q1 .q2:hover a img{
+	bottom: 0;
+}
+/* 为你推荐结束 */
+/* 热评产品开始 */
+.w1{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	margin-top: 20px;
+	line-height: 58px;
+	font-size: 24px;
+}
+.w2{
+	width: 1200px;
+	height: 415px;
+	margin: 0 auto;
+}
+.w2 .w3{
+	width: 296px;
+	height: 415px;
+	float: left;
+	margin-left: 5px;
+	background: #fff;
+}
+.w2 .w3{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.w2 .w3:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.w2 .w3:hover a img{
+	bottom: 0;
+}
+.w2 .w4{
+	margin-left: 0px;
+} 
+.w2 .w3 .as1{
+	width: 240px;
+	height: 72px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #333;
+}
+.w2 .w3 .as2{
+	width: 240px;
+	height: 18px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #B0B0B0;
+}
+.w2 .w3 .as3{
+	width: 240px;
+	height: 22px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.w2 .w3 .as3 .as4{
+	width: auto;
+	height: 16px;
+	line-height: 22px;
+	font-size: 14px;
+	float: left;
+	color: #000;
+}
+.w2 .w3 .as3 .as6{
+	width: auto;
+	height: 16px;
+	line-height: 22px;
+	font-size: 14px;
+	float: left;
+	padding: 0 10px;
+	color: #b0b0b0;
+}
+
+.w2 .w3 .as3 .as5{
+	width: auto;
+	height: 16px;
+	line-height: 22px;
+	font-size: 14px;
+	float: left;
+	color: #FF6700; 
+}
+/* 热评产品结束 */
+/* 内容开始 */
+.m{
+	width: 1200px;
+	height: 58px;
+	margin: 0 auto;
+	line-height: 58px;
+	margin-top: 20px;
+	font-size: 24px;
+	
+}
+.m1{
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+}
+.m1 .m2{
+	width: 296px;
+	height: 420px;
+	float: left;
+	background: #fff;
+	margin-left: 5px;
+	position: absolute;
+}
+.m1 .m2{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.m1 .m2:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.m1 .m2:hover a img{
+	bottom: 0;
+}
+.m1 .m3{
+	margin-left: 0px;
+	border-top: 1px solid #FFAC13;
+}
+.m1 .m4{
+	border-top: 1px solid #83C44E;
+}
+.m1 .m5{
+	border-top: 1px solid #E53935;
+}
+.m1 .m6{
+	border-top: 1px solid #2196F3;
+}
+.m1 .m3 .as1{
+	width: auto;
+	height: 22px;
+	margin: 0 auto;
+	line-height: 22px;
+	font-size: 16px;
+	padding-top: 40px;
+	color: #FFAC13;
+	text-align: center;
+}
+.m1 .m4 .as1{
+	width: auto;
+	height: 22px;
+	margin: 0 auto;
+	line-height: 22px;
+	font-size: 16px;
+	padding-top: 40px;
+	color: #83C44E;
+	text-align: center;
+}
+.m1 .m5 .as1{
+	width: auto;
+	height: 22px;
+	margin: 0 auto;
+	line-height: 22px;
+	font-size: 16px;
+	padding-top: 40px;
+	color: #E53935;
+	text-align: center;
+}
+.m1 .m6 .as1{
+	width: auto;
+	height: 22px;
+	margin: 0 auto;
+	line-height: 22px;
+	font-size: 16px;
+	padding-top: 40px;
+	color: #2196F3;
+	text-align: center;
+}
+.m1 .m2 .as2{
+	width: auto;
+	height: 24px;
+	margin: 0 auto;
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+}
+.m1 .m2 .as3{
+	width: 200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.m1 .m2 .as3 .ad{
+	width: 200px;
+	height: 20px;
+	margin: 0 auto;
+	margin-top: 8px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+}
+.m1 .m2 .as3 .ad1{
+	width: 200px;
+	height: 20px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+}
+.m1 .m2 .ad2{
+	width: 200px;
+	height: 20px;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+.m1 .m2 .as4{
+	padding: 0 40px;
+	margin-top: 10px;
+}
+.m1 .m2 .as5{
+	width: 296px;
+	height: 30px;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+.m1 .m2 .as5 .as6{
+	width: 10px;
+	height: 10px;
+	background: #B0B0B0;
+	margin: 0 auto;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.m1 .m2 .as5 .as6:hover{
+	background: #FF6700;
+}
+.m1 .m2 .sa1{
+	width: 20px;
+	height: 48px;
+	background: #E9E9E9;
+	text-align: center;
+	/* margin: 0 auto; */
+	position: relative;
+	top: -150px;
+}
+.m1 .m2 .sa1 div{
+	line-height: 48px;
+	font-size: 16px;
+	color: #fff;
+}
+.m1 .m2 .sa2 div{
+	line-height: 48px;
+	font-size: 16px;
+	color: #fff;
+}
+.m1 .m2 .sa2{
+	width: 20px;
+	height: 48px;
+	background: #E9E9E9;
+	text-align: center;
+	position: relative;
+	top: -200px;
+	left: 276px;
+}
+.m1 .m2 .sa1{
+	display: none;
+}
+.m1 .m2 .sa2{
+	display: none;
+}
+.m1 .m2:hover .sa1{
+	display: block;
+}
+.m1 .m2:hover .sa2{
+	display: block;
+}
+.m1 .m2 .sa1:hover{
+	background: #35383E;
+}
+.m1 .m2 .sa2:hover{
+	background: #35383E;
+}
+/* 内容结束 */
+/* 视频开始 */
+.n{
+	width: 1200px;
+	height: 58px;
+	font-size: 20px;
+	line-height: 58px;
+	margin: 0 auto;	
+	margin-top: 20px;
+}
+.n1{
+	width: 1200px;
+	height: 285px;
+	margin: 0 auto;
+}
+.n1 .n2{
+	width: 296px;
+	height: 285px;
+	background: #fff;
+	float: left;
+	margin-left: 5px;
+}
+.n1 .n2{
+	transition: all .3s linear;
+	position: relative;
+	overflow: hidden;
+}
+.n1 .n2:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 20px 3px #ccc;
+}
+.n1 .n2:hover a img{
+	bottom: 0;
+}
+.n1 .n3{
+	margin-left: 0px;
+}
+.n1 .n2 .as{
+	width: auto;
+	height: 16px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 16px;
+	color: #000;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.n1 .n2 .as:hover{
+	color: #FF6700; 
+}
+.n1 .n2 .as1{
+	width: auto;
+	height: 16px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 16px;
+	color: #b0b0b0;
+	margin-top: 20px;
+	font-size: 12px;
+}
+/* 视频结束 */
+/* 尾部开始 */
+.r{
+	width: auto;
+	height: 272px;
+}
+.r .r1{
+	width: 1200px;
+	height: 25px;
+	margin: 0 auto;
+	margin-top: 33px;
+}
+.r .r1 .r2{
+	width: 237px;
+	height: 25px;
+	float: left;
+	line-height: 25px;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	border-right: 1px solid #b0b0b0;
+}
+.r .r1 .r3{
+	border-right: 0;
+}
+.r .r1 .r2:hover{
+	color: #FF6700;
+}
+.r .r4{
+	width: 1200px;
+	height: 192px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-top: 1px solid #b0b0b0;
+}
+.r .r4 .r5{
+	width: 160px;
+	height: 112px;
+	float: left;
+	margin-top: 40px;
+}
+.r .r4 .r5 .as1{
+	color: #000;
+	font-size: 14px;
+}
+.r .r4 .r5 .as2{
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-top: 10px;
+}
+.r .r4 .r5 .as2:hover{
+	color: #FF6700;
+}
+.r .r4 .r6{
+	width: 239px;
+	height: 112px;
+	float: left;
+	border-left: 1px solid #b0b0b0;
+	margin-top: 30px;
+}
+.r .r4 .r6 .ad1{
+	width: auto;
+	height: 22px;
+	line-height: 22px;
+	color: #FF6700;
+	text-align: center;
+	font-size: 20px;
+}
+.r .r4 .r6 .ad2{
+	width: auto;
+	height: 22px;
+	line-height: 22px;
+	color: #b0b0b0;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.r .r4 .r6 .ad3{
+	width: auto;
+	height: 22px;
+	line-height: 22px;
+	color: #b0b0b0;
+	text-align: center;
+	font-size: 12px;
+}
+.r .r4 .r6 .ad4{
+	width: 120px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #FF6700;
+	border: 1px solid #FF6700;
+}
+.r .r4 .r6 .ad4:hover{
+	background: #FF6700; 
+	color: #fff;
+}
+.v1{
+	width: 1200px;
+	height: 166px;
+	margin: 0 auto
+}
+.v1 .v2{
+	width: 57px;
+	height: 57px;
+	float: left;
+	margin-right: 5px;
+}
+.v1 .v3{
+	width: 720px;
+	height: 57px;
+	float: left;
+}
+.v1 .v4{
+	width: 418px;
+	height: 57px;
+	float: left;
+}
+.v1 .v3 .v5{
+	width: 720px;
+	height: 14px;
+}
+.v1 .v3 .ad li{
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #b0b0b0;
+	padding-right: 3px;
+	padding-left: 3px;
+	color: #000;
+	margin-top: -8px;
+}
+.v1 .v3 .ad .as{
+	border-right: 0;
+}
+.v1 .v3 .ad .as{
+	padding-left: 0;
+}
+.v1 .v3 .ad li:hover{
+	color: #FF6700;
+}
+.v1 .v3 .ad1 li{
+	float: left;
+	font-size: 12px;
+	padding-right: 3px;
+	padding-left: 3px;
+	color: #b0b0b0;
+}
+.v1 .v3 .ad1 .as:hover{
+	color: #FF6700;
+}
+.v1 .v3 .ad1 .as{
+	cursor: pointer;
+}
+.v1 .v3 .as1{
+	font-size: 12px;
+	color: #b0b0b0;
+}
+.v1 .v4 .ax{
+	width: 85px;
+	height: 28px;
+	display: block;
+	float: left;
+	margin-left: 19px;
+}
+.zb{
+	width: 267px;
+	height: 19px;
+	margin: 0 auto;
+	font-size: 16px;
+	text-align: center;
+	color: #b0b0b0;
+}
+/* 尾部结束 */
+.c1 {
+	position: relative;
+}
+.c1 .c12 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c12 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c12 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c12 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c12 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c12 .az{
+	display: none;
+}
+.c1 .c12:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c3 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c3 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c3 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c3 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c3 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c3 .az{
+	display: none;
+}
+.c1 .c3:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c4 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c4 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c4 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c4 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c4 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c4 .az{
+	display: none;
+}
+.c1 .c4:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c5 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c5 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c5 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c5 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c5 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c5 .az{
+	display: none;
+}
+.c1 .c5:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c6 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c6 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c6 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c6 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c6 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c6 .az{
+	display: none;
+}
+.c1 .c6:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c7 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c7 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c7 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c7 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c7 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c7 .az{
+	display: none;
+}
+.c1 .c7:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c8 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c8 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c8 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c8 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c8 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c8 .az{
+	display: none;
+}
+.c1 .c8:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c9 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c9 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c9 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c9 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c9 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c9 .az{
+	display: none;
+}
+.c1 .c9:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c10 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c10 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c10 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c10 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c10 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c10 .az{
+	display: none;
+}
+.c1 .c10:hover .az{
+	display: block;
+}
+.c1 {
+	position: relative;
+}
+.c1 .c11 .az{
+	width: 284px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	left: 234px;
+}
+.c1 .c11 .az .az1{
+	width: 200px;
+	height: 76px;
+	margin-left: 20px;
+	margin-top: px;
+	float: left;
+}
+.c1 .c11 .az .az1 img{
+	display: block;
+	padding-top: 18px;
+	float: left;
+}
+.c1 .c11 .az .az1 .az2{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-top: 40px;
+	color: #000;
+}
+.c1 .c11 .az .az1 .az2:hover{
+	color: #FF6700; 
+}
+.c1 .c11 .az{
+	display: none;
+}
+.c1 .c11:hover .az{
+	display: block;
+}
